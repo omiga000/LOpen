@@ -1,0 +1,30 @@
+[0.017s] Invoking command in '/home/epsilon/LOpencv/0831/ws/build/01': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/epsilon/LOpencv/0831/ws/build/01 -- -j24 -l24
+[0.167s] [ 25%] [32mBuilding CXX object CMakeFiles/Sub_node.dir/src/Sub.cpp.o[0m
+[0.170s] [ 50%] [32mBuilding CXX object CMakeFiles/Pub_node.dir/src/Pub.cpp.o[0m
+[4.591s] [ 75%] [32m[1mLinking CXX executable Pub_node[0m
+[5.344s] [ 75%] Built target Pub_node
+[6.856s] [100%] [32m[1mLinking CXX executable Sub_node[0m
+[7.766s] [100%] Built target Sub_node
+[7.779s] Invoked command in '/home/epsilon/LOpencv/0831/ws/build/01' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/epsilon/LOpencv/0831/ws/build/01 -- -j24 -l24
+[7.795s] Invoking command in '/home/epsilon/LOpencv/0831/ws/build/01': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/epsilon/LOpencv/0831/ws/build/01
+[7.800s] -- Install configuration: ""
+[7.802s] -- Installing: /home/epsilon/LOpencv/0831/ws/install/01/lib/01/Pub_node
+[7.803s] -- Set runtime path of "/home/epsilon/LOpencv/0831/ws/install/01/lib/01/Pub_node" to ""
+[7.804s] -- Installing: /home/epsilon/LOpencv/0831/ws/install/01/lib/01/Sub_node
+[7.806s] -- Set runtime path of "/home/epsilon/LOpencv/0831/ws/install/01/lib/01/Sub_node" to ""
+[7.807s] -- Up-to-date: /home/epsilon/LOpencv/0831/ws/install/01/share/ament_index/resource_index/package_run_dependencies/01
+[7.807s] -- Up-to-date: /home/epsilon/LOpencv/0831/ws/install/01/share/ament_index/resource_index/parent_prefix_path/01
+[7.807s] -- Up-to-date: /home/epsilon/LOpencv/0831/ws/install/01/share/01/environment/ament_prefix_path.sh
+[7.807s] -- Up-to-date: /home/epsilon/LOpencv/0831/ws/install/01/share/01/environment/ament_prefix_path.dsv
+[7.807s] -- Up-to-date: /home/epsilon/LOpencv/0831/ws/install/01/share/01/environment/path.sh
+[7.807s] -- Up-to-date: /home/epsilon/LOpencv/0831/ws/install/01/share/01/environment/path.dsv
+[7.808s] -- Up-to-date: /home/epsilon/LOpencv/0831/ws/install/01/share/01/local_setup.bash
+[7.808s] -- Up-to-date: /home/epsilon/LOpencv/0831/ws/install/01/share/01/local_setup.sh
+[7.809s] -- Up-to-date: /home/epsilon/LOpencv/0831/ws/install/01/share/01/local_setup.zsh
+[7.809s] -- Up-to-date: /home/epsilon/LOpencv/0831/ws/install/01/share/01/local_setup.dsv
+[7.809s] -- Installing: /home/epsilon/LOpencv/0831/ws/install/01/share/01/package.dsv
+[7.809s] -- Up-to-date: /home/epsilon/LOpencv/0831/ws/install/01/share/ament_index/resource_index/packages/01
+[7.810s] -- Up-to-date: /home/epsilon/LOpencv/0831/ws/install/01/share/01/cmake/01Config.cmake
+[7.810s] -- Up-to-date: /home/epsilon/LOpencv/0831/ws/install/01/share/01/cmake/01Config-version.cmake
+[7.810s] -- Up-to-date: /home/epsilon/LOpencv/0831/ws/install/01/share/01/package.xml
+[7.811s] Invoked command in '/home/epsilon/LOpencv/0831/ws/build/01' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/epsilon/LOpencv/0831/ws/build/01

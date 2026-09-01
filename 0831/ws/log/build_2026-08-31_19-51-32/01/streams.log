@@ -1,0 +1,77 @@
+[0.009s] Invoking command in '/home/epsilon/LOpencv/0831/ws/build/01': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/epsilon/LOpencv/0831/ws/src/01 -DCMAKE_INSTALL_PREFIX=/home/epsilon/LOpencv/0831/ws/install/01
+[0.191s] -- The C compiler identification is GNU 11.4.0
+[0.827s] -- The CXX compiler identification is GNU 11.4.0
+[1.053s] -- Detecting C compiler ABI info
+[1.145s] -- Detecting C compiler ABI info - done
+[1.149s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.151s] -- Detecting C compile features
+[1.151s] -- Detecting C compile features - done
+[1.154s] -- Detecting CXX compiler ABI info
+[1.254s] -- Detecting CXX compiler ABI info - done
+[1.258s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.259s] -- Detecting CXX compile features
+[1.259s] -- Detecting CXX compile features - done
+[1.267s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.357s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.423s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.581s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.585s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.592s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.604s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.618s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.656s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.658s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.605s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.686s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.911s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.928s] -- Looking for pthread.h
+[6.033s] -- Looking for pthread.h - found
+[6.033s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.135s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.136s] -- Found Threads: TRUE  
+[6.195s] -- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.229s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[6.240s] -- Found OpenCV: /usr (found version "4.5.4") found components: core imgproc highgui 
+[6.241s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.277s] WARNING: Package name "01" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[6.302s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.302s] -- Configured cppcheck include dirs: 
+[6.302s] -- Configured cppcheck exclude dirs and/or files: 
+[6.303s] -- Added test 'lint_cmake' to check CMake code style
+[6.303s] -- Added test 'uncrustify' to check C / C++ code style
+[6.303s] -- Configured uncrustify additional arguments: 
+[6.304s] -- Added test 'xmllint' to check XML markup files
+[6.306s] -- Configuring done
+[6.318s] -- Generating done
+[6.322s] -- Build files have been written to: /home/epsilon/LOpencv/0831/ws/build/01
+[6.329s] Invoked command in '/home/epsilon/LOpencv/0831/ws/build/01' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/epsilon/LOpencv/0831/ws/src/01 -DCMAKE_INSTALL_PREFIX=/home/epsilon/LOpencv/0831/ws/install/01
+[6.331s] Invoking command in '/home/epsilon/LOpencv/0831/ws/build/01': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/epsilon/LOpencv/0831/ws/build/01 -- -j24 -l24
+[6.360s] [ 50%] [32mBuilding CXX object CMakeFiles/Pub_node.dir/src/Pub.cpp.o[0m
+[6.360s] [ 50%] [32mBuilding CXX object CMakeFiles/Sub_node.dir/src/Sub.cpp.o[0m
+[10.593s] [ 75%] [32m[1mLinking CXX executable Pub_node[0m
+[11.296s] [ 75%] Built target Pub_node
+[12.637s] [100%] [32m[1mLinking CXX executable Sub_node[0m
+[13.534s] [100%] Built target Sub_node
+[13.542s] Invoked command in '/home/epsilon/LOpencv/0831/ws/build/01' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/epsilon/LOpencv/0831/ws/build/01 -- -j24 -l24
+[13.548s] Invoking command in '/home/epsilon/LOpencv/0831/ws/build/01': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/epsilon/LOpencv/0831/ws/build/01
+[13.552s] -- Install configuration: ""
+[13.552s] -- Installing: /home/epsilon/LOpencv/0831/ws/install/01/lib/01/Pub_node
+[13.553s] -- Set runtime path of "/home/epsilon/LOpencv/0831/ws/install/01/lib/01/Pub_node" to ""
+[13.553s] -- Installing: /home/epsilon/LOpencv/0831/ws/install/01/lib/01/Sub_node
+[13.555s] -- Set runtime path of "/home/epsilon/LOpencv/0831/ws/install/01/lib/01/Sub_node" to ""
+[13.556s] -- Installing: /home/epsilon/LOpencv/0831/ws/install/01/share/ament_index/resource_index/package_run_dependencies/01
+[13.556s] -- Installing: /home/epsilon/LOpencv/0831/ws/install/01/share/ament_index/resource_index/parent_prefix_path/01
+[13.556s] -- Installing: /home/epsilon/LOpencv/0831/ws/install/01/share/01/environment/ament_prefix_path.sh
+[13.556s] -- Installing: /home/epsilon/LOpencv/0831/ws/install/01/share/01/environment/ament_prefix_path.dsv
+[13.557s] -- Installing: /home/epsilon/LOpencv/0831/ws/install/01/share/01/environment/path.sh
+[13.557s] -- Installing: /home/epsilon/LOpencv/0831/ws/install/01/share/01/environment/path.dsv
+[13.557s] -- Installing: /home/epsilon/LOpencv/0831/ws/install/01/share/01/local_setup.bash
+[13.557s] -- Installing: /home/epsilon/LOpencv/0831/ws/install/01/share/01/local_setup.sh
+[13.557s] -- Installing: /home/epsilon/LOpencv/0831/ws/install/01/share/01/local_setup.zsh
+[13.557s] -- Installing: /home/epsilon/LOpencv/0831/ws/install/01/share/01/local_setup.dsv
+[13.557s] -- Installing: /home/epsilon/LOpencv/0831/ws/install/01/share/01/package.dsv
+[13.557s] -- Installing: /home/epsilon/LOpencv/0831/ws/install/01/share/ament_index/resource_index/packages/01
+[13.557s] -- Installing: /home/epsilon/LOpencv/0831/ws/install/01/share/01/cmake/01Config.cmake
+[13.557s] -- Installing: /home/epsilon/LOpencv/0831/ws/install/01/share/01/cmake/01Config-version.cmake
+[13.558s] -- Installing: /home/epsilon/LOpencv/0831/ws/install/01/share/01/package.xml
+[13.560s] Invoked command in '/home/epsilon/LOpencv/0831/ws/build/01' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/epsilon/LOpencv/0831/ws/build/01

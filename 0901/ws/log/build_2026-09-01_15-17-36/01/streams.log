@@ -1,0 +1,65 @@
+[0.009s] Invoking command in '/home/epsilon/LOpencv/0901/ws/build/01': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/epsilon/LOpencv/0901/ws/src/01 -DCMAKE_INSTALL_PREFIX=/home/epsilon/LOpencv/0901/ws/install/01
+[1.097s] -- The C compiler identification is GNU 11.4.0
+[6.480s] -- The CXX compiler identification is GNU 11.4.0
+[9.326s] -- Detecting C compiler ABI info
+[10.479s] -- Detecting C compiler ABI info - done
+[10.483s] -- Check for working C compiler: /usr/bin/cc - skipped
+[10.492s] -- Detecting C compile features
+[10.493s] -- Detecting C compile features - done
+[10.498s] -- Detecting CXX compiler ABI info
+[11.550s] -- Detecting CXX compiler ABI info - done
+[11.554s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[11.554s] -- Detecting CXX compile features
+[11.554s] -- Detecting CXX compile features - done
+[11.573s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[11.666s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[11.744s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[12.587s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[12.592s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[12.601s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[12.614s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.630s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.680s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[12.684s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[22.398s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[34.828s] -- Found FastRTPS: /opt/ros/humble/include  
+[55.544s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[55.571s] -- Looking for pthread.h
+[56.449s] -- Looking for pthread.h - found
+[56.449s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[57.542s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[57.543s] -- Found Threads: TRUE  
+[57.597s] -- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[57.631s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[57.644s] -- Found OpenCV: /usr (found version "4.5.4") found components: core imgproc highgui 
+[57.646s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[57.680s] WARNING: Package name "01" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[57.710s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[57.710s] -- Configured cppcheck include dirs: 
+[57.710s] -- Configured cppcheck exclude dirs and/or files: 
+[57.711s] -- Added test 'lint_cmake' to check CMake code style
+[57.713s] -- Added test 'uncrustify' to check C / C++ code style
+[57.713s] -- Configured uncrustify additional arguments: 
+[57.713s] -- Added test 'xmllint' to check XML markup files
+[57.715s] -- Configuring done
+[57.729s] -- Generating done
+[57.733s] -- Build files have been written to: /home/epsilon/LOpencv/0901/ws/build/01
+[57.741s] Invoked command in '/home/epsilon/LOpencv/0901/ws/build/01' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/epsilon/LOpencv/0901/ws/src/01 -DCMAKE_INSTALL_PREFIX=/home/epsilon/LOpencv/0901/ws/install/01
+[57.742s] Invoking command in '/home/epsilon/LOpencv/0901/ws/build/01': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/epsilon/LOpencv/0901/ws/build/01 -- -j24 -l24
+[57.767s] [ 25%] [32mBuilding CXX object CMakeFiles/Pub_node.dir/src/Pub.cpp.o[0m
+[57.768s] [ 50%] [32mBuilding CXX object CMakeFiles/Sub_node.dir/src/Sub.cpp.o[0m
+[59.903s] [01m[K/home/epsilon/LOpencv/0901/ws/src/01/src/Sub.cpp:31:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[59.903s]    31 | }
+[59.903s]       |  [01;31m[K^[m[K
+[59.903s]       |  [32m[K;[m[K
+[59.903s] [01m[K/home/epsilon/LOpencv/0901/ws/src/01/src/Sub.cpp:[m[K In constructor ‘[01m[KMySubscriber::MySubscriber()[m[K’:
+[59.903s] [01m[K/home/epsilon/LOpencv/0901/ws/src/01/src/Sub.cpp:18:63:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+[59.903s]    18 |         bind(&MySubscriber::call_back,this,std::placeholders::[01;31m[K1[m[K)
+[59.903s]       |                                                               [01;31m[K^[m[K
+[60.452s] gmake[2]: *** [CMakeFiles/Sub_node.dir/build.make:76: CMakeFiles/Sub_node.dir/src/Sub.cpp.o] Error 1
+[60.452s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/Sub_node.dir/all] Error 2
+[60.452s] gmake[1]: *** Waiting for unfinished jobs....
+[60.570s] [ 75%] [32m[1mLinking CXX executable Pub_node[0m
+[61.054s] [ 75%] Built target Pub_node
+[61.055s] gmake: *** [Makefile:146: all] Error 2
+[61.056s] Invoked command in '/home/epsilon/LOpencv/0901/ws/build/01' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/epsilon/LOpencv/0901/ws/build/01 -- -j24 -l24

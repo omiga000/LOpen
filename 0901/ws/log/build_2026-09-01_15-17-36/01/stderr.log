@@ -1,0 +1,13 @@
+WARNING: Package name "01" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[01m[K/home/epsilon/LOpencv/0901/ws/src/01/src/Sub.cpp:31:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   31 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/epsilon/LOpencv/0901/ws/src/01/src/Sub.cpp:[m[K In constructor ‘[01m[KMySubscriber::MySubscriber()[m[K’:
+[01m[K/home/epsilon/LOpencv/0901/ws/src/01/src/Sub.cpp:18:63:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+   18 |         bind(&MySubscriber::call_back,this,std::placeholders::[01;31m[K1[m[K)
+      |                                                               [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/Sub_node.dir/build.make:76: CMakeFiles/Sub_node.dir/src/Sub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/Sub_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

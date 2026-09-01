@@ -1,0 +1,6 @@
+%YAML:1.0
+---
+image_size: [ 1920, 1274 ]
+image_type: 16
+image_channels: 3
+image_depth: 0

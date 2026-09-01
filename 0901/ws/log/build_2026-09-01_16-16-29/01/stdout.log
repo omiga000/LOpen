@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target Sub_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/Pub_node.dir/src/Pub.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/Sub_node.dir/src/Sub.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable Pub_node[0m
+[ 75%] Built target Pub_node
+[100%] [32m[1mLinking CXX executable Sub_node[0m
+[100%] Built target Sub_node
+-- Install configuration: ""
+-- Installing: /home/epsilon/LOpencv/0901/ws/install/01/lib/01/Pub_node
+-- Set runtime path of "/home/epsilon/LOpencv/0901/ws/install/01/lib/01/Pub_node" to ""
+-- Installing: /home/epsilon/LOpencv/0901/ws/install/01/lib/01/Sub_node
+-- Set runtime path of "/home/epsilon/LOpencv/0901/ws/install/01/lib/01/Sub_node" to ""
+-- Up-to-date: /home/epsilon/LOpencv/0901/ws/install/01/share/ament_index/resource_index/package_run_dependencies/01
+-- Up-to-date: /home/epsilon/LOpencv/0901/ws/install/01/share/ament_index/resource_index/parent_prefix_path/01
+-- Up-to-date: /home/epsilon/LOpencv/0901/ws/install/01/share/01/environment/ament_prefix_path.sh
+-- Up-to-date: /home/epsilon/LOpencv/0901/ws/install/01/share/01/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/epsilon/LOpencv/0901/ws/install/01/share/01/environment/path.sh
+-- Up-to-date: /home/epsilon/LOpencv/0901/ws/install/01/share/01/environment/path.dsv
+-- Up-to-date: /home/epsilon/LOpencv/0901/ws/install/01/share/01/local_setup.bash
+-- Up-to-date: /home/epsilon/LOpencv/0901/ws/install/01/share/01/local_setup.sh
+-- Up-to-date: /home/epsilon/LOpencv/0901/ws/install/01/share/01/local_setup.zsh
+-- Up-to-date: /home/epsilon/LOpencv/0901/ws/install/01/share/01/local_setup.dsv
+-- Installing: /home/epsilon/LOpencv/0901/ws/install/01/share/01/package.dsv
+-- Up-to-date: /home/epsilon/LOpencv/0901/ws/install/01/share/ament_index/resource_index/packages/01
+-- Up-to-date: /home/epsilon/LOpencv/0901/ws/install/01/share/01/cmake/01Config.cmake
+-- Up-to-date: /home/epsilon/LOpencv/0901/ws/install/01/share/01/cmake/01Config-version.cmake
+-- Up-to-date: /home/epsilon/LOpencv/0901/ws/install/01/share/01/package.xml

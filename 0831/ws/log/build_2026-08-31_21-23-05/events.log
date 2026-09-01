@@ -1,0 +1,113 @@
+[0.000000] (-) TimerEvent: {}
+[0.000134] (01) JobQueued: {'identifier': '01', 'dependencies': OrderedDict()}
+[0.000166] (01) JobStarted: {'identifier': '01'}
+[0.010324] (01) JobProgress: {'identifier': '01', 'progress': 'cmake'}
+[0.016093] (01) JobProgress: {'identifier': '01', 'progress': 'build'}
+[0.016150] (01) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/epsilon/LOpencv/0831/ws/build/01', '--', '-j24', '-l24'], 'cwd': '/home/epsilon/LOpencv/0831/ws/build/01', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'epsilon'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{9b453795-1064-511f-9743-e1aeb987851b}'), ('HOME', '/home/epsilon'), ('OLDPWD', '/home/epsilon'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'epsilon'), ('NAME', 'Macbookpro'), ('WSL_INTEROP', '/run/WSL/6937_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/Development_tool/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/tools/bz/Bandizip/:/mnt/d/Development_tool/apache-maven-3.9.16/bin:/mnt/d/Development_tool/Git/cmd:/mnt/d/My_Compiler/Java/jdk-21.0.12/bin:/mnt/d/My_Compiler/Redis:/mnt/d/My_Compiler/Python:/mnt/d/My_Compiler/Python/Scripts:/mnt/c/Program Files/usbipd-win/:/mnt/d/Minconda/Scripts:/mnt/d/Minconda/condabin:/mnt/d/Development_tool/:/mnt/d/My_compiler/w64devkit/bin:/mnt/d/conda:/mnt/d/conda/Scripts:/mnt/d/My_Compiler/Python/Scripts/:/mnt/d/My_Compiler/Python/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/26476/AppData/Local/Microsoft/WindowsApps:/mnt/d/Development_tool/Microsoft VS Code/bin:/mnt/c/Users/26476/AppData/Roaming/npm:/mnt/d/My_compiler/w64devkit/bin:/snap/bin'), ('WT_SESSION', '528d6cdc-ae12-4d27-b923-d4bb83d7e742'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/epsilon/LOpencv/0831/ws/build/01'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.101298] (-) TimerEvent: {}
+[0.166675] (01) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/Sub_node.dir/src/Sub.cpp.o\x1b[0m\n'}
+[0.169816] (01) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/Pub_node.dir/src/Pub.cpp.o\x1b[0m\n'}
+[0.202454] (-) TimerEvent: {}
+[0.306332] (-) TimerEvent: {}
+[0.413718] (-) TimerEvent: {}
+[0.515219] (-) TimerEvent: {}
+[0.620571] (-) TimerEvent: {}
+[0.725524] (-) TimerEvent: {}
+[0.829772] (-) TimerEvent: {}
+[0.933916] (-) TimerEvent: {}
+[1.038173] (-) TimerEvent: {}
+[1.144985] (-) TimerEvent: {}
+[1.251405] (-) TimerEvent: {}
+[1.358761] (-) TimerEvent: {}
+[1.465335] (-) TimerEvent: {}
+[1.572212] (-) TimerEvent: {}
+[1.678901] (-) TimerEvent: {}
+[1.779330] (-) TimerEvent: {}
+[1.882165] (-) TimerEvent: {}
+[1.984026] (-) TimerEvent: {}
+[2.084738] (-) TimerEvent: {}
+[2.187986] (-) TimerEvent: {}
+[2.288416] (-) TimerEvent: {}
+[2.391372] (-) TimerEvent: {}
+[2.492420] (-) TimerEvent: {}
+[2.595985] (-) TimerEvent: {}
+[2.696575] (-) TimerEvent: {}
+[2.796992] (-) TimerEvent: {}
+[2.898503] (-) TimerEvent: {}
+[2.998859] (-) TimerEvent: {}
+[3.100069] (-) TimerEvent: {}
+[3.200992] (-) TimerEvent: {}
+[3.301513] (-) TimerEvent: {}
+[3.403043] (-) TimerEvent: {}
+[3.504447] (-) TimerEvent: {}
+[3.604893] (-) TimerEvent: {}
+[3.706753] (-) TimerEvent: {}
+[3.808098] (-) TimerEvent: {}
+[3.909147] (-) TimerEvent: {}
+[4.015861] (-) TimerEvent: {}
+[4.122723] (-) TimerEvent: {}
+[4.229025] (-) TimerEvent: {}
+[4.329608] (-) TimerEvent: {}
+[4.433634] (-) TimerEvent: {}
+[4.534752] (-) TimerEvent: {}
+[4.591085] (01) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable Pub_node\x1b[0m\n'}
+[4.637470] (-) TimerEvent: {}
+[4.744307] (-) TimerEvent: {}
+[4.848223] (-) TimerEvent: {}
+[4.951015] (-) TimerEvent: {}
+[5.055540] (-) TimerEvent: {}
+[5.160079] (-) TimerEvent: {}
+[5.264567] (-) TimerEvent: {}
+[5.344355] (01) StdoutLine: {'line': b'[ 75%] Built target Pub_node\n'}
+[5.365880] (-) TimerEvent: {}
+[5.466158] (-) TimerEvent: {}
+[5.567246] (-) TimerEvent: {}
+[5.669662] (-) TimerEvent: {}
+[5.774345] (-) TimerEvent: {}
+[5.879074] (-) TimerEvent: {}
+[5.983593] (-) TimerEvent: {}
+[6.088142] (-) TimerEvent: {}
+[6.193276] (-) TimerEvent: {}
+[6.297063] (-) TimerEvent: {}
+[6.401680] (-) TimerEvent: {}
+[6.508618] (-) TimerEvent: {}
+[6.614778] (-) TimerEvent: {}
+[6.717869] (-) TimerEvent: {}
+[6.818524] (-) TimerEvent: {}
+[6.856261] (01) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable Sub_node\x1b[0m\n'}
+[6.922092] (-) TimerEvent: {}
+[7.024652] (-) TimerEvent: {}
+[7.131341] (-) TimerEvent: {}
+[7.236347] (-) TimerEvent: {}
+[7.338607] (-) TimerEvent: {}
+[7.443533] (-) TimerEvent: {}
+[7.544023] (-) TimerEvent: {}
+[7.649190] (-) TimerEvent: {}
+[7.749810] (-) TimerEvent: {}
+[7.765555] (01) StdoutLine: {'line': b'[100%] Built target Sub_node\n'}
+[7.779186] (01) CommandEnded: {'returncode': 0}
+[7.781107] (01) JobProgress: {'identifier': '01', 'progress': 'install'}
+[7.793738] (01) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/epsilon/LOpencv/0831/ws/build/01'], 'cwd': '/home/epsilon/LOpencv/0831/ws/build/01', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'epsilon'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{9b453795-1064-511f-9743-e1aeb987851b}'), ('HOME', '/home/epsilon'), ('OLDPWD', '/home/epsilon'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'epsilon'), ('NAME', 'Macbookpro'), ('WSL_INTEROP', '/run/WSL/6937_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/Development_tool/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/tools/bz/Bandizip/:/mnt/d/Development_tool/apache-maven-3.9.16/bin:/mnt/d/Development_tool/Git/cmd:/mnt/d/My_Compiler/Java/jdk-21.0.12/bin:/mnt/d/My_Compiler/Redis:/mnt/d/My_Compiler/Python:/mnt/d/My_Compiler/Python/Scripts:/mnt/c/Program Files/usbipd-win/:/mnt/d/Minconda/Scripts:/mnt/d/Minconda/condabin:/mnt/d/Development_tool/:/mnt/d/My_compiler/w64devkit/bin:/mnt/d/conda:/mnt/d/conda/Scripts:/mnt/d/My_Compiler/Python/Scripts/:/mnt/d/My_Compiler/Python/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/26476/AppData/Local/Microsoft/WindowsApps:/mnt/d/Development_tool/Microsoft VS Code/bin:/mnt/c/Users/26476/AppData/Roaming/npm:/mnt/d/My_compiler/w64devkit/bin:/snap/bin'), ('WT_SESSION', '528d6cdc-ae12-4d27-b923-d4bb83d7e742'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/epsilon/LOpencv/0831/ws/build/01'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.800302] (01) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.802117] (01) StdoutLine: {'line': b'-- Installing: /home/epsilon/LOpencv/0831/ws/install/01/lib/01/Pub_node\n'}
+[7.803365] (01) StdoutLine: {'line': b'-- Set runtime path of "/home/epsilon/LOpencv/0831/ws/install/01/lib/01/Pub_node" to ""\n'}
+[7.803898] (01) StdoutLine: {'line': b'-- Installing: /home/epsilon/LOpencv/0831/ws/install/01/lib/01/Sub_node\n'}
+[7.806514] (01) StdoutLine: {'line': b'-- Set runtime path of "/home/epsilon/LOpencv/0831/ws/install/01/lib/01/Sub_node" to ""\n'}
+[7.806652] (01) StdoutLine: {'line': b'-- Up-to-date: /home/epsilon/LOpencv/0831/ws/install/01/share/ament_index/resource_index/package_run_dependencies/01\n'}
+[7.806737] (01) StdoutLine: {'line': b'-- Up-to-date: /home/epsilon/LOpencv/0831/ws/install/01/share/ament_index/resource_index/parent_prefix_path/01\n'}
+[7.807008] (01) StdoutLine: {'line': b'-- Up-to-date: /home/epsilon/LOpencv/0831/ws/install/01/share/01/environment/ament_prefix_path.sh\n'}
+[7.807054] (01) StdoutLine: {'line': b'-- Up-to-date: /home/epsilon/LOpencv/0831/ws/install/01/share/01/environment/ament_prefix_path.dsv\n'}
+[7.807087] (01) StdoutLine: {'line': b'-- Up-to-date: /home/epsilon/LOpencv/0831/ws/install/01/share/01/environment/path.sh\n'}
+[7.807120] (01) StdoutLine: {'line': b'-- Up-to-date: /home/epsilon/LOpencv/0831/ws/install/01/share/01/environment/path.dsv\n'}
+[7.808472] (01) StdoutLine: {'line': b'-- Up-to-date: /home/epsilon/LOpencv/0831/ws/install/01/share/01/local_setup.bash\n'}
+[7.808610] (01) StdoutLine: {'line': b'-- Up-to-date: /home/epsilon/LOpencv/0831/ws/install/01/share/01/local_setup.sh\n'}
+[7.808760] (01) StdoutLine: {'line': b'-- Up-to-date: /home/epsilon/LOpencv/0831/ws/install/01/share/01/local_setup.zsh\n'}
+[7.808982] (01) StdoutLine: {'line': b'-- Up-to-date: /home/epsilon/LOpencv/0831/ws/install/01/share/01/local_setup.dsv\n'}
+[7.809038] (01) StdoutLine: {'line': b'-- Installing: /home/epsilon/LOpencv/0831/ws/install/01/share/01/package.dsv\n'}
+[7.809457] (01) StdoutLine: {'line': b'-- Up-to-date: /home/epsilon/LOpencv/0831/ws/install/01/share/ament_index/resource_index/packages/01\n'}
+[7.809797] (01) StdoutLine: {'line': b'-- Up-to-date: /home/epsilon/LOpencv/0831/ws/install/01/share/01/cmake/01Config.cmake\n'}
+[7.809945] (01) StdoutLine: {'line': b'-- Up-to-date: /home/epsilon/LOpencv/0831/ws/install/01/share/01/cmake/01Config-version.cmake\n'}
+[7.810023] (01) StdoutLine: {'line': b'-- Up-to-date: /home/epsilon/LOpencv/0831/ws/install/01/share/01/package.xml\n'}
+[7.811181] (01) CommandEnded: {'returncode': 0}
+[7.834372] (01) JobEnded: {'identifier': '01', 'rc': 0}
+[7.835172] (-) EventReactorShutdown: {}
