@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/epsilon/LOpencv/Opencv-4/build",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -std=gnu++14 -o CMakeFiles/Test413.dir/src/Test413.cpp.o -c /home/epsilon/LOpencv/Opencv-4/src/Test413.cpp",
+  "file": "/home/epsilon/LOpencv/Opencv-4/src/Test413.cpp"
+}
+]
