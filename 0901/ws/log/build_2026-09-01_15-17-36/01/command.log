@@ -1,4 +1,0 @@
-Invoking command in '/home/epsilon/LOpencv/0901/ws/build/01': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/epsilon/LOpencv/0901/ws/src/01 -DCMAKE_INSTALL_PREFIX=/home/epsilon/LOpencv/0901/ws/install/01
-Invoked command in '/home/epsilon/LOpencv/0901/ws/build/01' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/epsilon/LOpencv/0901/ws/src/01 -DCMAKE_INSTALL_PREFIX=/home/epsilon/LOpencv/0901/ws/install/01
-Invoking command in '/home/epsilon/LOpencv/0901/ws/build/01': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/epsilon/LOpencv/0901/ws/build/01 -- -j24 -l24
-Invoked command in '/home/epsilon/LOpencv/0901/ws/build/01' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/epsilon/LOpencv/0901/ws/build/01 -- -j24 -l24

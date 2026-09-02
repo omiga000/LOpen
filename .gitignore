@@ -1,0 +1,11 @@
+0901/ws/build/
+0901/ws/install/
+0901/ws/log/
+0901/ws/.vscode/
+0901/ws/*.jpg
+0901/ws/*.png
+0901/ws/*.webp
+0901/ws/color_values.txt
+0901/ws/image/
+.vscode/
+.DS_Store
